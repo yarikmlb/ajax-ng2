@@ -6,8 +6,10 @@
   margin: 0 auto;
 }
 .server-output p {
-  margin: 10px 0 10px 10px;
-  max-width: 200px;
+  margin: 10px 0;
+  text-align: center;
+  min-width: 200px;
+  max-width: 249px;
   position: relative;
 }
 .server-output p:hover .remove {
@@ -23,5 +25,5 @@
   display: none;
   cursor: pointer;
   position: absolute;
-  right: 0;
+  right: 10px;
 }
