@@ -1,15 +1,19 @@
 .server-output {
   border: 1px solid blue;
   min-height: 50px;
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
 }
 .server-output p {
-  margin: 10px;
+  margin: 10px 0 10px 10px;
+  max-width: 200px;
+  position: relative;
 }
 .server-output p:hover .remove {
   display: inline-block;
 }
 .server-output p:hover {
-  border: 1px solid blue;
   color: blue;
 }
 .remove {
@@ -18,4 +22,6 @@
   color: red;
   display: none;
   cursor: pointer;
+  position: absolute;
+  right: 0;
 }
