@@ -1,0 +1,11 @@
+<div class="form-group">
+  <div>
+    <label for="email" class="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="user.email">
+  </div>
+  <div>
+    <label for="fullname">Full name:</label>
+    <input type="text" id="fullname" [(ngModel)]="user.fullName">
+  </div>
+  <button type="submit" (click)="add()">Push on server</button>
+</div>

@@ -1,0 +1,7 @@
+.server-output {
+  border: 1px solid blue;
+  min-height: 50px;
+}
+.server-output p {
+  margin: 10px;
+}
