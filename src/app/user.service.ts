@@ -6,7 +6,7 @@ import 'rxjs/add/operator/mergeMap';
 
 @Injectable()
 export class UserService {
-  private _baseUrl = 'http://test-api.javascript.ru/v1/yarik-mlb56-gmail-com/users/';
+  private _baseUrl = 'https://test-api.javascript.ru/v1/yarik-mlb56-gmail-com/users/';
   public list = [];
 
   constructor(private _http: Http) {
