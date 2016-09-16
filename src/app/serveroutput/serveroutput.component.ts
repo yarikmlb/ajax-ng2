@@ -8,7 +8,7 @@ import {ServerinputComponent} from "../serverinput/serverinput.component";
   styleUrls: ['./serveroutput.component.css']
 })
 export class ServeroutputComponent implements OnInit {
-  constructor(private _userService: UserService, private _inputServer: ServerinputComponent) {
+  constructor(private _userService: UserService) {
   }
 
   ngOnInit() {
@@ -18,7 +18,7 @@ export class ServeroutputComponent implements OnInit {
     return this._userService.returnList();
   }
 
-  removeUser(){
-    this._userService.removeUser(this._userService.list);
+  removeUser(user){
+    this._userService.removeUser(user);
   }
 }
