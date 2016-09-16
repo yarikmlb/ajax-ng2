@@ -14,6 +14,8 @@ export class ServerinputComponent implements OnInit {
 
   add(){
     this._userService.add(this.user);
+    this.user.email = '';
+    this.user.fullName = '';
   }
 
   ngOnInit() {

@@ -5,3 +5,17 @@
 .server-output p {
   margin: 10px;
 }
+.server-output p:hover .remove {
+  display: inline-block;
+}
+.server-output p:hover {
+  border: 1px solid blue;
+  color: blue;
+}
+.remove {
+  background: transparent;
+  border: none;
+  color: red;
+  display: none;
+  cursor: pointer;
+}
