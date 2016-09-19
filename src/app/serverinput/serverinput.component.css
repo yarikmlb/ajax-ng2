@@ -16,7 +16,7 @@ button {
 .email-exception {
   color: red;
   position: absolute;
-  bottom: -5px;
+  bottom: -25px;
   left: 0;
   right: -35px;
 }
