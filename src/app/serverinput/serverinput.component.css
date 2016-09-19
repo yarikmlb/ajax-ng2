@@ -7,3 +7,19 @@ button {
 .form-group div {
   margin: 5px 0;
 }
+.form-group .input-full-name,
+.form-group .input-email {
+  margin-bottom: 20px;
+  position: relative;
+}
+.fullname-exception,
+.email-exception {
+  color: red;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: -35px;
+}
+.fullname-exception {
+  right: -65px;
+}
